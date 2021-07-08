@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="TitileOfAlarm">Alarm</string>
+	<string name="TitileOfClock">Clock</string>
+	<string name="TitileOfTimer">Timer</string>
+</resources>

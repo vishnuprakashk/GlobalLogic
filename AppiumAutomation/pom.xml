@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>global.logic</groupId>
+	<artifactId>AppiumAutomation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+	<dependencies><!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>7.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20210307</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.aventstack</groupId> -->
+<!-- 			<artifactId>extentreports-testng-adapter</artifactId> -->
+<!-- 			<version>1.0.7</version> -->
+<!-- 		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+	</dependencies>
+</project>

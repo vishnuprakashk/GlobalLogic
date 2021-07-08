@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.listeners.TestNgListener" />
+	</listeners>
+	<!-- <test name="Test"> -->
+	<!-- <parameter name="platformName" value="Android" /> -->
+	<!-- <parameter name="automationName" value="UiAutomator2" /> -->
+	<!-- <parameter name="platformVersion" value="11" /> -->
+	<!-- <classes> -->
+	<!-- <class name="mobile.test.AppiumTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> Test -->
+	<test name="Test2">
+		<classes>
+			<parameter name="platformName" value="Android" />
+			<parameter name="automationName" value="UiAutomator2" />
+			<parameter name="platformVersion" value="11" />
+			<class name="alarm.Tests.AlarmTest">
+				<methods>
+<!-- 					<include name="cancelAlarm" /> -->
+<!-- 					<include name="setAlarm" /> -->
+					<include name="setTimer" />
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

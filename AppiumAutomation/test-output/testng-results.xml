@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AppLaunched_2021-07-08-19-02-09.png'> <img src='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AppLaunched_2021-07-08-19-02-09.png' height='200' width='160'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on: Located by By.chained({By.AccessibilityId: Timer})]]>
+    </line>
+    <line>
+      <![CDATA[Get text - Attribute from Located by By.chained({By.id: action_bar_title})]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\TimerHome_2021-07-08-19-02-14.png'> <img src='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\TimerHome_2021-07-08-19-02-14.png' height='200' width='160'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AfterTimerSet_2021-07-08-19-02-23.png'> <img src='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AfterTimerSet_2021-07-08-19-02-23.png' height='200' width='160'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28555" started-at="2021-07-08T19:01:55 EDT" finished-at="2021-07-08T19:02:24 EDT">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="28555" started-at="2021-07-08T19:01:55 EDT" finished-at="2021-07-08T19:02:24 EDT">
+      <class name="alarm.Tests.AlarmTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:alarm.Tests.AlarmTest@281e3708]" name="beforeClass" is-config="true" duration-ms="13990" started-at="2021-07-08T19:01:55 EDT" finished-at="2021-07-08T19:02:09 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UiAutomator2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AppLaunched_2021-07-08-19-02-09.png'> <img src='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AppLaunched_2021-07-08-19-02-09.png' height='200' width='160'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:alarm.Tests.AlarmTest@281e3708]" name="beforeMethod" is-config="true" duration-ms="1843" started-at="2021-07-08T19:02:09 EDT" finished-at="2021-07-08T19:02:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void alarm.Tests.AlarmTest.setTimer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setTimer()[pri:0, instance:alarm.Tests.AlarmTest@281e3708]" name="setTimer" duration-ms="11402" started-at="2021-07-08T19:02:11 EDT" finished-at="2021-07-08T19:02:23 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on: Located by By.chained({By.AccessibilityId: Timer})]]>
+            </line>
+            <line>
+              <![CDATA[Get text - Attribute from Located by By.chained({By.id: action_bar_title})]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\TimerHome_2021-07-08-19-02-14.png'> <img src='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\TimerHome_2021-07-08-19-02-14.png' height='200' width='160'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AfterTimerSet_2021-07-08-19-02-23.png'> <img src='C:\Users\vishn\eclipse-workspace\AppiumAutomation\Screenshots\2021-07-08-19-01-55\AfterTimerSet_2021-07-08-19-02-23.png' height='200' width='160'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setTimer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:alarm.Tests.AlarmTest@281e3708]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-07-08T19:02:23 EDT" finished-at="2021-07-08T19:02:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:alarm.Tests.AlarmTest@281e3708]" name="afterClass" is-config="true" duration-ms="701" started-at="2021-07-08T19:02:23 EDT" finished-at="2021-07-08T19:02:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- alarm.Tests.AlarmTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

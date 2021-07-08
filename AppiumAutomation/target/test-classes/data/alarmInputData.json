@@ -1,0 +1,10 @@
+{
+	"validTime": {
+		"hours": "10",
+		"minutes": "10"
+	},
+	"invalidTime": {
+		"hours": "100",
+		"minutes": "100"
+	}
+}
